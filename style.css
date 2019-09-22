@@ -4,18 +4,48 @@ body {}
 .jumbotron img {
     margin-top: 50px;
 }
-.portofolio h3 {
-    margin-bottom: 25px;
+.project h3 {
+    margin-bottom: 40px;
 }
-.portofolio img {
+.project img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.photos h3 {
+    margin-bottom: 40px;
+}
+.photos img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.videos h3 {
+    margin-bottom: 40px;
+}
+.videos img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.contact h3 {
+    margin-bottom: 40px;
+}
+.contact img {
     width: 100%;
     height: 160px;
     margin-bottom: 15px;
 }
 
 
+.project, .photos, .videos, .contact {
+    padding: 75px 0;
+}
+
 footer{
  font-size: 12px;
  padding:5px 0;
- margin-top: 15px;
 }
